@@ -71,6 +71,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95462594297CB251008BD7D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95462595297CB258008BD7D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95462596297CB25D008BD7D5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		95E73665297A7E0D0009D775 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +115,9 @@
 		95E73670297A7E0D0009D775 /* MiniApp-SwiftUI-MVVMTodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				95462596297CB25D008BD7D5 /* ViewModel */,
+				95462595297CB258008BD7D5 /* View */,
+				95462594297CB251008BD7D5 /* Model */,
 				95E73671297A7E0D0009D775 /* MiniApp_SwiftUI_MVVMTodoAppApp.swift */,
 				95E73673297A7E0D0009D775 /* ContentView.swift */,
 				95E73675297A7E0F0009D775 /* Assets.xcassets */,
