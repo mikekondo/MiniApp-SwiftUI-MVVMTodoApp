@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95462598297CB2AE008BD7D5 /* TodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95462597297CB2AE008BD7D5 /* TodoListItem.swift */; };
+		9546259A297CB4E3008BD7D5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95462599297CB4E3008BD7D5 /* Category.swift */; };
+		9546259C297CB51C008BD7D5 /* TodoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546259B297CB51C008BD7D5 /* TodoListItemViewModel.swift */; };
+		9546259E297CB528008BD7D5 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546259D297CB528008BD7D5 /* CategoryViewModel.swift */; };
 		95E73672297A7E0D0009D775 /* MiniApp_SwiftUI_MVVMTodoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E73671297A7E0D0009D775 /* MiniApp_SwiftUI_MVVMTodoAppApp.swift */; };
 		95E73674297A7E0D0009D775 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E73673297A7E0D0009D775 /* ContentView.swift */; };
 		95E73676297A7E0F0009D775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E73675297A7E0F0009D775 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95462597297CB2AE008BD7D5 /* TodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItem.swift; sourceTree = "<group>"; };
+		95462599297CB4E3008BD7D5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9546259B297CB51C008BD7D5 /* TodoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewModel.swift; sourceTree = "<group>"; };
+		9546259D297CB528008BD7D5 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		95E7366E297A7E0D0009D775 /* MiniApp-SwiftUI-MVVMTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp-SwiftUI-MVVMTodoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E73671297A7E0D0009D775 /* MiniApp_SwiftUI_MVVMTodoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniApp_SwiftUI_MVVMTodoAppApp.swift; sourceTree = "<group>"; };
 		95E73673297A7E0D0009D775 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +82,8 @@
 		95462594297CB251008BD7D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				95462597297CB2AE008BD7D5 /* TodoListItem.swift */,
+				95462599297CB4E3008BD7D5 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,6 +91,7 @@
 		95462595297CB258008BD7D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				95E73673297A7E0D0009D775 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +99,8 @@
 		95462596297CB25D008BD7D5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9546259B297CB51C008BD7D5 /* TodoListItemViewModel.swift */,
+				9546259D297CB528008BD7D5 /* CategoryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -119,7 +132,6 @@
 				95462595297CB258008BD7D5 /* View */,
 				95462594297CB251008BD7D5 /* Model */,
 				95E73671297A7E0D0009D775 /* MiniApp_SwiftUI_MVVMTodoAppApp.swift */,
-				95E73673297A7E0D0009D775 /* ContentView.swift */,
 				95E73675297A7E0F0009D775 /* Assets.xcassets */,
 				95E73677297A7E0F0009D775 /* Preview Content */,
 			);
@@ -281,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95462598297CB2AE008BD7D5 /* TodoListItem.swift in Sources */,
+				9546259C297CB51C008BD7D5 /* TodoListItemViewModel.swift in Sources */,
 				95E73674297A7E0D0009D775 /* ContentView.swift in Sources */,
 				95E73672297A7E0D0009D775 /* MiniApp_SwiftUI_MVVMTodoAppApp.swift in Sources */,
+				9546259E297CB528008BD7D5 /* CategoryViewModel.swift in Sources */,
+				9546259A297CB4E3008BD7D5 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var categoryViewModel = CategoryViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List(categoryViewModel.category) { category in
+            }
         }
-        .padding()
     }
 }
 
