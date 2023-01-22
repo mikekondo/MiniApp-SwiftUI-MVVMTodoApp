@@ -13,6 +13,17 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List(categoryViewModel.category) { category in
+                Text("\(category.name)")
+            }
+            .navigationTitle("カテゴリ一覧")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        // 何もしない
+                    } label: {
+                        Text("追加")
+                    }
+                }
             }
         }
     }
